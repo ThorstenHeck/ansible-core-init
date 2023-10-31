@@ -3,7 +3,6 @@
   hosts: test
   gather_facts: true
   remote_user: root
-  ansible_user: root
 
   tasks:
     - name: Update and upgrade apt packages
