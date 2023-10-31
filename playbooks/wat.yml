@@ -1,6 +1,6 @@
 ---
 - name: Install semaphore
-  hosts: test
+  hosts: test_remote
   gather_facts: true
 
   tasks:
